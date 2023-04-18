@@ -1,0 +1,111 @@
+* {
+  font-family: "Figtree", sans-serif;
+}
+
+body {
+  /*background-image: src("./atributes/IMG-20230418-WA0009.jpg");*/
+  font-size: 20px;
+  max-width: 1024px;
+  size: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-container {
+  font-family: "Figtree", sans-serif;
+  background-color: rgb(52, 90, 52);
+  height: 7rem;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 50px;
+  color: antiquewhite;
+  padding-top: 1rem;
+}
+
+nav {
+  color: antiquewhite;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+}
+
+nav a {
+  color: antiquewhite;
+}
+
+.pic-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+footer {
+  font-family: "Figtree", sans-serif;
+  background-color: rgb(52, 90, 52);
+  height: 7rem;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: antiquewhite;
+}
+
+img {
+  height: 300px;
+  width: 300px;
+}
+
+#results {
+  height: 30px;
+  width: 90px;
+  background-color: rgb(52, 90, 52);
+  color: antiquewhite;
+  border: none;
+}
+
+.button-container {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.butterfly {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  animation-name: slideme;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+@keyframes slideme {
+  0% {
+    top: 0;
+    left: 20px;
+  }
+
+  25% {
+    top: 7%;
+    left: 42%;
+  }
+
+  50% {
+    top: 20%;
+    left: 80%;
+  }
+
+  75% {
+    top: 80%;
+    left: 27%;
+  }
+  100% {
+    top: 21%;
+    left: 10%;
+  }
+}
