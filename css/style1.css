@@ -44,6 +44,28 @@ nav a {
   justify-content: space-between;
 }
 
+@media (max-width: 600px) {
+  .pic-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  img {
+    margin: 1rem;
+  }
+  #myChart {
+    height: 30rem;
+  }
+  section canvas {
+    height: 26rem;
+  }
+
+  .chart-container {
+    height: 20rem;
+  }
+}
+
 footer {
   font-family: "Figtree", sans-serif;
   background-color: rgb(52, 90, 52);
